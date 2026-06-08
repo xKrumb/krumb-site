@@ -1,0 +1,9 @@
+/* 主内容 */
+.zhuneirong { margin-top: 64px; }
+
+/* 剧情容器 */
+.juqing-rongqi { max-width: 800px; margin: 0 auto; padding: 60px 40px; display: flex; flex-direction: column; gap: 12px; }
+.duihua { display: flex; gap: 24px; align-items: flex-start; }
+.juese-ming { width: 140px; text-align: right; color: #888; flex-shrink: 0; padding-top: 2px; }
+.juese-neirong { flex: 1; text-align: left; color: #eee; }
+.pangbai { text-align: center; color: #888; padding: 16px 40px; font-style: italic; }

@@ -1,0 +1,45 @@
+/* 主内容 */
+.zhuneirong { margin-top: 64px; padding: 0 80px; background: #141414; color: #fff; }
+
+/* 内容容器 */
+.rongqi { max-width: 1200px; margin: 0 auto; }
+/* 基础信息框 */
+.jichu-xinxi-kuang { padding: 48px 0; margin: 64px 0 48px; display: flex; gap: 24px; border-bottom: 1px solid #ffffff;}
+.lihui-qu { width: 420px; height: 420px; overflow: hidden; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.lihui-qu img { max-width: 100%; max-height: 100%; display: block; object-fit: contain; }
+.jichu-wenzi { flex: 1; display: flex; flex-direction: column; gap: 16px; }
+/* 上半部分 */
+.xinxi-shangban { display: flex; gap: 12px; align-items: stretch; border-bottom: 1px solid #ffffff; padding-bottom: 16px; }
+.xinxi-zuo { flex: 1; display: flex; flex-direction: column; justify-content: space-between; gap: 4px; }
+.ganyuan-nicheng { height: 28px; font-size: 1.6em; }
+.ganyuan-yingwen { height: 18px; font-size: 0.6em; }
+.ganyuan-xingji { font-size: 1.2em; }
+.xinxi-you { width: 64px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 8px; }
+.zhiwei-tubiao { width: 56px; height: 56px; border-radius: 8px; overflow: hidden; }
+.zhiwei-tubiao img { width: 100%; height: 100%; display: block; object-fit: cover; }
+.ganyuan-zhiweiming { font-size: 1.5em; font-weight: bold;}
+/* 下半部分 */
+.xinxi-xiaban { flex: 1; display: flex; flex-direction: column; gap: 16px; }
+.tianfutexing-biaoti { height: 24px; margin-bottom: 8px; }
+.tianfutexing-xiang { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 8px; }
+.tianfutexing-ming { width: 120px; height: 24px; border-radius: 4px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; color: #000000; background: #c0c0c0; }
+.tianfutexing-xiaoguo { flex: 1; min-height: 40px; }
+.bankuai-biaoti { font-size: 1.5em; font-weight: bold; margin-bottom: 20px; }
+.jineng-qu { margin-bottom: 48px; }
+.jineng-xiang {
+    background: #2b2b2b;
+    border-radius: 12px;
+    padding: 16px; margin-bottom: 16px;
+    display: flex; gap: 16px; align-items: flex-start;
+}
+.jineng-tubiao { width: 64px; height: 64px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
+.jineng-tubiao img { max-width: 100%; max-height: 100%; display: block; object-fit: contain; }
+.jineng-miaoshu { flex: 1; display: flex; flex-direction: column; gap: 8px; }
+.jineng-ming { height: 24px; width: 150px; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: #000000; background: #c0c0c0; }
+.jineng-xiaoguo { min-height: 60px; }
+
+/* 档案区 */
+.dangan-qu { padding-bottom: 28px; }
+.dangan-pian { background: #2b2b2b; border-radius: 12px; padding: 24px; margin-bottom: 24px; }
+.dangan-xiaobiaoti { height: 28px; width: 100%; border-radius: 4px; margin-bottom: 16px; padding: 0 8px; display: flex; align-items: center; color: #000000; background: #c0c0c0; }
+.dangan-zhengwen { margin: 0 20px; }

@@ -1,0 +1,28 @@
+* { margin: 0; padding: 0; box-sizing: border-box; scroll-padding-top: 64px; }
+body { line-height: 1.6; background: #141414; }
+h3 { font-size: 1.6em; }
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+
+/* 导航栏 */
+.daohang {
+    position: fixed; top: 0; left: 0; right: 0;
+    height: 64px;
+    border-bottom: 2px solid #ffffff;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 40px;
+    background: #060606;
+    z-index: 100;
+}
+.daohang-logo { display: block; width: 80px; height: 48px; }
+.daohang-logo img { height: 100%; display: block; margin: 0 auto; object-fit: cover; }
+.daohang-caidan { display: flex; gap: 32px; }
+.daohang-caidan a { padding: 4px 16px; border-bottom: 3px solid #7f7f7f; color: #ffffff; }
+.daohang-caidan a:hover { border-bottom: 3px solid #ffffff; }
+
+/* 底部栏 */
+.dibulan { background: #060606; color: #ffffff; padding: 40px 20px; }
+.dibulan-rongqi { max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 16px; }
+.dibulan-wenzi { text-align: center; display: flex; flex-direction: column; gap: 8px; }
+.dibulan-wenzi p { font-size: 0.85em; color: #aaa; height: auto; width: auto; border: none; }
+.dibulan-wenzi .mianze { font-size: 0.75em; color: #666; margin-top: 4px; }
